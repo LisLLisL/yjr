@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>要闻</title>
+	<link rel="stylesheet" type="text/css" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+	<link rel="stylesheet" type="text/css" href="mainstyle/css/base.css">
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+	<!-- <link rel="stylesheet" href="assets/css/styles.css" /> -->
+    <link rel="stylesheet" href="assets/countdown/jquery.countdown.css" />
+
+    
+
+</head>
+<body>
+
+
+	<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-1">
+	  <div class="am-modal-dialog">
+	    <div class="am-modal-hd">财经日历
+	      <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+	    </div>
+	    <div class="am-modal-bd">
+	      <div class="">09:30中国</div>
+	      <div class="">10月规模以上企业利润</div>
+	      <div><span>前值:5771.3</span>    <span>预测:--</span>     <span>公布值:0.2</span></div>
+	      <div>利多利空:<img src="mainstyle/images/img1.jpg"></div>
+	      <div>解读:<img src="mainstyle/images/img2.jpg"></div>
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="header">
+		<ul class="width-1200-box">
+			<li class="logo"></li>
+			<li class="na-tit">直播室</li>
+			<li class="na-tit">金融学院</li>
+			<li class="na-tit">金融圈</li>
+			<li class="na-tit">财经日报</li>
+			<li class="na-tit">快讯播报</li>
+			<li class="na-tit">首页</li>
+		</ul>
+	</div>
+	<div class="nav">
+		<ul class="width-1200-box">
+			<li>首页</li>
+			<li>要闻</li>
+			<li>快讯</li>
+			<li>日历</li>
+			<li>分析</li>
+			<li>行情</li>
+			<li>答疑</li>
+			<li>直播</li>
+		</ul>
+	</div>
+	<div class="update-box">
+		<div class="width-1200-box">
+			<div class="js-update">
+				<div class="count-down-tit">
+					<div>距离下一条数据</div>
+					<div class="count-down-text">美国截至3月18号当周API原油库存变动月（万桶）</div>
+					<div>更新还有</div>
+				</div>
+				<div class="count-down">
+					<div id="countdown"></div>
+				</div>	
+			</div>
+			<table class=" tab-shadow">
+				<tr class="dot-bottom">
+					<th class="width-105 update-tit">时间</th>
+					<th class="width-105 update-tit">国家或地区</th>
+					<th class="width-365 update-tit">指标</th>
+					<th class="width-100 update-tit">前值</th>
+					<th class="width-100 update-tit">预测值</th>
+					<th class="width-100 update-tit">公布值</th>
+					<th class="width-125 update-tit">利多利空</th>
+					<th class="width-100 update-tit">解读</th>
+				</tr>
+				<tr data-am-modal="{target: '#doc-modal-1', closeViaDimmer: 0, width: 400, height: 225}">
+  Modal>
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit">美元</td>
+					<td class="width-365 update-tit">点这里弹窗</td>
+					<td class="width-100 update-tit">365</td>
+					<td class="width-100 update-tit">-25</td>
+					<td class="width-100 update-tit">-128</td>
+					<td class="width-125 update-tit"><img src="mainstyle/images/img1.jpg"></td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img2.jpg"></td>
+				</tr>
+				<tr data-am-modal="{target: '#doc-modal-1', closeViaDimmer: 0, width: 400, height: 225}">
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit">美元</td>
+					<td class="width-365 update-tit">点这里弹窗</td>
+					<td class="width-100 update-tit">365</td>
+					<td class="width-100 update-tit">-25</td>
+					<td class="width-100 update-tit">-128</td>
+					<td class="width-125 update-tit"><img src="mainstyle/images/img1.jpg"></td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img2.jpg"></td>
+				</tr>
+				<tr data-am-modal="{target: '#doc-modal-1', closeViaDimmer: 0, width: 400, height: 225}">
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit">美元</td>
+					<td class="width-365 update-tit">点这里弹窗</td>
+					<td class="width-100 update-tit">365</td>
+					<td class="width-100 update-tit">-25</td>
+					<td class="width-100 update-tit">-128</td>
+					<td class="width-125 update-tit"><img src="mainstyle/images/img1.jpg"></td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img2.jpg"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="eco-data">
+		<div class="width-1200-box">
+			<div class="eco-tit-box">
+				<div class="eco-tit-left"><img src="mainstyle/images/img8.jpg">财经数据</div>
+				<div class="eco-tit-right">下载周历壁纸<img src="mainstyle/images/img9.jpg"></div>
+			</div>
+
+			<table class="eco-data-tab">
+				<tr>
+					<th class="width-105 update-tit color-1">时间</th>
+					<th class="width-105 update-tit color-1">国家或地区</th>
+					<th class="width-365 update-tit color-2">指标</th>
+					<th class="width-100 update-tit color-3">前值</th>
+					<th class="width-100 update-tit color-3">预测值</th>
+					<th class="width-100 update-tit color-3">公布值</th>
+					<th class="width-100 update-tit color-3">重要性</th>
+					<th class="width-125 update-tit color-3">利多利空</th>
+					<th class="width-100 update-tit color-3">解读</th>
+				</tr>
+				<tr>
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit"><img src="mainstyle/images/img3.jpg">欧元</td>
+					<td class="width-365 update-tit">美国截至11月18号当周API原油库存变动(万桶)</td>
+					<td class="width-100 update-tit">365</td>
+					<td class="width-100 update-tit">-25</td>
+					<td class="width-100 update-tit">-128</td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img4.jpg"></td>
+					<td class="width-125 update-tit"><img src="mainstyle/images/img1.jpg"></td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img2.jpg"></td>
+				</tr>
+				<tr>
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit"><img src="mainstyle/images/img3.jpg">欧元</td>
+					<td class="width-365 update-tit">美国截至11月18号当周API原油库存变动(万桶)</td>
+					<td class="width-100 update-tit">365</td>
+					<td class="width-100 update-tit">-25</td>
+					<td class="width-100 update-tit">-128</td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img6.jpg"></td>
+					<td class="width-125 update-tit"><img src="mainstyle/images/img1.jpg"></td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img2.jpg"></td>
+				</tr>
+				<tr>
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit"><img src="mainstyle/images/img3.jpg">欧元</td>
+					<td class="width-365 update-tit">美国截至11月18号当周API原油库存变动(万桶)</td>
+					<td class="width-100 update-tit">365</td>
+					<td class="width-100 update-tit">-25</td>
+					<td class="width-100 update-tit">-128</td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img7.jpg"></td>
+					<td class="width-125 update-tit"><img src="mainstyle/images/img1.jpg"></td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img2.jpg"></td>
+				</tr>
+				<tr>
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit"><img src="mainstyle/images/img3.jpg">欧元</td>
+					<td class="width-365 update-tit">美国截至11月18号当周API原油库存变动(万桶)</td>
+					<td class="width-100 update-tit">365</td>
+					<td class="width-100 update-tit">-25</td>
+					<td class="width-100 update-tit">-128</td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img4.jpg"></td>
+					<td class="width-125 update-tit"><img src="mainstyle/images/img5.jpg"></td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img2.jpg"></td>
+				</tr>
+				<tr>
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit"><img src="mainstyle/images/img3.jpg">欧元</td>
+					<td class="width-365 update-tit">美国截至11月18号当周API原油库存变动(万桶)</td>
+					<td class="width-100 update-tit">365</td>
+					<td class="width-100 update-tit">-25</td>
+					<td class="width-100 update-tit">-128</td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img6.jpg"></td>
+					<td class="width-125 update-tit"><img src="mainstyle/images/img5.jpg"></td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img2.jpg"></td>
+				</tr>
+				<tr>
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit"><img src="mainstyle/images/img3.jpg">欧元</td>
+					<td class="width-365 update-tit">美国截至11月18号当周API原油库存变动(万桶)</td>
+					<td class="width-100 update-tit">365</td>
+					<td class="width-100 update-tit">-25</td>
+					<td class="width-100 update-tit">-128</td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img7.jpg"></td>
+					<td class="width-125 update-tit"><img src="mainstyle/images/img5.jpg"></td>
+					<td class="width-100 update-tit"><img src="mainstyle/images/img2.jpg"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="eco-data">
+		<div class="width-1200-box">
+			<div class="eco-tit-box">
+				<div class="eco-tit-left"><img src="mainstyle/images/img10.jpg">假期预告<span class="tit-time">2016-11-18 星期五</span></div>
+			</div>
+
+			<table class="eco-data-tab">
+				<tr>
+					<th class="width-105 update-tit color-1">时间</th>
+					<th class="width-105 update-tit color-1">国家或地区</th>
+					<th class="width-400 update-tit color-2">地点</th>
+					<th class="width-590 update-tit color-3">事件</th>
+				</tr>
+				<tr>
+					<td colspan="4" class="width-1200 update-tit">暂无假期预告</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="eco-data">
+		<div class="width-1200-box">
+			<div class="eco-tit-box">
+				<div class="eco-tit-left"><img src="mainstyle/images/img11.jpg">财经大事<span class="tit-time">2016-11-18 星期五</span></div>
+			</div>
+
+			<table class="eco-data-tab">
+				<tr>
+					<th class="width-105 update-tit color-1">时间</th>
+					<th class="width-105 update-tit color-1">国家或地区</th>
+					<th class="width-210 update-tit color-2">地点</th>
+					<th class="width-210 update-tit color-3">重要性</th>
+					<th class="width-590 update-tit color-4">事件</th>
+				</tr>
+				<tr>
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit"><img src="mainstyle/images/img3.jpg">欧洲</td>
+					<td class="width-210 update-tit">多哈</td>
+					<td class="width-210 update-tit"><img src="mainstyle/images/img6.jpg"></td>
+					<td class="width-590 update-tit thing">第18届天然气输出国论坛召开。第18届天然气输出国论坛召开。第18届天然气输出国论坛召开。第18届天然气输出国论坛召开。</td>
+				</tr>
+				<tr>
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit"><img src="mainstyle/images/img3.jpg">欧洲</td>
+					<td class="width-210 update-tit">多哈</td>
+					<td class="width-210 update-tit"><img src="mainstyle/images/img6.jpg"></td>
+					<td class="width-590 update-tit thing">第18届天然气输出国论坛召开。第18届天然气输出国论坛召开。第18届天然气输出国论坛召开。第18届天然气输出国论坛召开。</td>
+				</tr>
+				<tr>
+					<td class="width-105 update-tit">04：59</td>
+					<td class="width-105 update-tit"><img src="mainstyle/images/img3.jpg">欧洲</td>
+					<td class="width-210 update-tit">多哈</td>
+					<td class="width-210 update-tit"><img src="mainstyle/images/img6.jpg"></td>
+					<td class="width-590 update-tit thing">第18届天然气输出国论坛召开。第18届天然气输出国论坛召开。第18届天然气输出国论坛召开。第18届天然气输出国论坛召开。</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="eco-data">
+		<div class="width-1200-box">
+			<div class="eco-tit-box">
+				<div class="eco-tit-left"><img src="mainstyle/images/img12.jpg">国债发行预告</div>
+			</div>
+
+			<table class="eco-data-tab">
+				<tr>
+					<th class="width-105 update-tit color-1">时间</th>
+					<th class="width-105 update-tit color-1">国家或地区</th>
+					<th class="width-210 update-tit color-2">地点</th>
+					<th class="width-210 update-tit color-3">重要性</th>
+					<th class="width-590 update-tit color-4">事件</th>
+				</tr>
+				<tr>
+					<td colspan="5" class="width-1200 update-tit">暂无重要国债发行公布</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="foot">
+		<div class="width-1200-box">
+			<div class="foot-top">
+				<div class="foot-phone">TEL:021-31078088</div>
+				<div class="foot-about">
+					<ul>
+						<li>关于我们</li>
+						<li>联系我们</li>
+						<li>客服中心</li>
+						<li>广告合作</li>
+						<li>媒介合作</li>
+						<li>合作机构</li>
+						<li>友情链接</li>
+						<li>网站地图</li>
+						<li>使用条款</li>
+						<li>隐私声明</li>
+						<li>客户端下载</li>
+					</ul>
+				</div>
+			</div>
+			<div class="foot-bottom">
+				<div class="float-l">Copyright © 2016-2018</div>
+				<div class="float-r">沪ICP备134040259号-1 版权所有：方舟设计</div>
+			</div>
+		</div>
+	</div>
+<script src="http://www.jq22.com/jquery/jquery-1.7.1.js"></script>
+<script src="assets/countdown/jquery.countdown.js"></script>
+<script src="assets/js/script.js"></script>
+<script type="text/javascript" src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+
+</body>
+</html>
